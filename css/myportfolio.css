@@ -43,7 +43,7 @@ span.name{
   border: 1px solid #FFF;
 }
 .btn:hover {
-  background-color: #fff;
+  background-color: #d5d5d5;
 }
 .container{
   margin: 4% auto;
@@ -58,7 +58,7 @@ p.rim {
 #proj {
   max-width: 200px;
   max-height: 200px;
-  margin: 10% auto;
+  margin: 7% auto;
 }
 @media (max-width: 600px) {
   .carousel-caption {
@@ -66,27 +66,18 @@ p.rim {
   }
   #icon {
     max-width: 150px;
+    display: none;
   }
   #proj {
     max-width: 150px;
   }
-h2 {
-    font-size: 1.7em;
-  }
 }
-#social ul li {
-  float:left;
-  list-style: none;
-  padding: 5px;
-}
-#social img {
-  height: 25px;
-  width: 25px;
-}
-h1.topic {
-  font-size: 20px;
+
+h1 {
+  font-size: 30px;
   text-align: center;
   color: #5EC6C5;
+  font-family: 'Roboto',serif;
 }
 p.occupy {
   text-align: center;
@@ -94,7 +85,11 @@ p.occupy {
 }
 h2 {
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
+  color: #d5d5d5;
+}
+h3.school {
+  color: #d5d5d5;
 }
 .play {
   color: #5EC6C5;
@@ -104,4 +99,29 @@ h2 {
 }
 .red {
   padding-top: 20px;
+}
+footer {
+  width: 100%;
+  background-color: #5EC6C5;
+  padding: 5%;
+  color: #fff;
+
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  color: #fff;
+}
+.fa:hover {
+  color: #D5D5D5;
+  text-decoration: none;
+}
+.form-group {
+  text-align: left;
+}
+.btn-primary {
+ float: left;
+}
+#logo {
+  margin-top: 30px;
 }

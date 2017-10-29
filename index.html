@@ -23,9 +23,9 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="index.html">HOME</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">PROJECTS</a></li>
-              <li><a href="#">CONTACTS</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#projects">PROJECTS</a></li>
+              <li><a href="#contact">CONTACTS</a></li>
             </ul>
         </div>
       </div>
@@ -42,10 +42,9 @@
           <img src="img/Wallpaper.png" alt="wallpaper">
         <div class="carousel-caption">
           <h1 class="detail">WAINAINA <span class="name">KASYOKA</span></h1>
-            <br>
-          <h4>UI DESIGNER & DEVELOPER</h4>
-            <br>
-          <button type="button" class="btn bt-default" name="button">Learn More</button>
+          <h3>UI DESIGNER & DEVELOPER</h3>
+
+          <a class="btn bt-default" role="button" href="#contact">Get Website</a>
         </div>
       </div> <!---End of active--->
 
@@ -66,11 +65,10 @@
           <span class="sr-only">Next</span>
         </a>
       </div> <!---end of slider--->
-
       <br>
 
   <div class="container">
-    <h1 class="topic">TALENTED DESIGNER AND FRONT WEB DEVELOPER</h1>
+    <h1 id="about">TALENTED DESIGNER AND FRONT WEB DEVELOPER</h1>
     <br>
       <p class="occupy">I'm a passionate Coder studying at <span class="name">Moringa School</span> in <span class="name">Nairobi Kenya</span>. I care about details and getting my designs just right. Besides coding I also design the UX and UI of all my work.</p>
       <p class="occupy"> I enjoy programming because "programming language" is important because it defines the relationship, semantics and grammar which allows the programmers to effectively communicate with the machines that they program. A programming language serves several purposes: You can instruct the computer what to do in a human-readable form</p>
@@ -81,7 +79,7 @@
     <h2>What We Are Learning</h2>
     <div class="row">
       <div class="col-md-6">
-        <h3>Bootstrap</h3>
+        <h3 class="school">Bootstrap</h3>
         <p class="rim">Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.Since Bootstrap 2, the Bootstrap documentation has included a customization wizard which generates a customized version of Bootstrap based on the requested components and various settings</p>
         <p class="rim">Bootstrap is modular and consists of a series of Less stylesheets that implement the various components of the toolkit. These stylesheets are generally compiled into a bundle and included in web pages, but individual components can be included or removed. Bootstrap provides a number of configuration variables that control things such as color and padding of various components.</p>
       </div>
@@ -94,7 +92,7 @@
   <div class="container text-center">
     <div class="row">
       <div class="col-md-6">
-        <h3>CSS3</h3>
+        <h3 class="school">CSS3</h3>
         <p class="rim">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications</p>
         <p class="rim">CSS is designed primarily to enable the separation of presentation and content, including aspects such as the layout, colors, and fonts.This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content</p>
       </div>
@@ -107,7 +105,7 @@
   <div class="container text-center">
     <div class="row">
       <div class="col-md-6">
-        <h3>Html5</h3>
+        <h3 class="school">Html5</h3>
         <p class="rim">HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard. It was published in October 2014 by the World Wide Web Consortium (W3C) to improve the language with support for the latest multimedia, while keeping it both easily readable by humans and consistently understood by computers and devices such as web browsers, parsers, etc. HTML5 is intended to subsume not only HTML 4, but also XHTML 1 and DOM Level 2 HTML.</p>
         <p class="rim">HTML5 includes detailed processing models to encourage more interoperable implementations; it extends, improves and rationalizes the markup available for documents, and introduces markup and application programming interfaces (APIs) for complex web applications.For the same reasons, HTML5 is also a candidate for cross-platform mobile applications, because it includes features designed with low-powered devices in mind.</p>
       </div>
@@ -116,9 +114,10 @@
       </div>
     </div>
   </div>
-
+<br>
   <div class="container text-center">
-  <h2>PROJECTS</h2>
+  <h1 id="projects">PROJECTS</h1>
+  <h2>Some of my completed projects:</h2>
   <br>
   <div class="row">
     <div class="col-sm-4">
@@ -132,6 +131,43 @@
     </div>
   </div>
 </div>
+<br>
+
+<footer id="contact" class="container-fluid text-center">
+    <div class="row">
+      <div class="col-sm-4">
+  <form>
+  <div class="form-row">
+    <div class="form-group col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="form-group col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+  <div class="col-sm-4 col-xs-12">
+    <h3>Connect</h3>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-youtube"></a>
+  </div>
+  <div class="col-sm-4 col-xs-12">
+  <img src="img/Portfolio.png" class="icon" width="120px" height="84px" alt="" id="logo">
+  <br>
+  <small class="form-text text-muted">A project submitted as a partial fulfilment for completing Moringa-Prep <em>(Ip1)</em>.</small>
+  </div>
+</footer>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
