@@ -1,12 +1,12 @@
 body {
-  background:#5EC6C5 ;
+  background:#fff ;
 
 }
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
   background-color:#5EC6C5;
-  color: #FFF;
+  color: #5EC6C5;
   padding: 1% 0;
   font-size: 1.2em;
   border: 0;
@@ -33,7 +33,7 @@ h1.detail{
     color: #000;
 }
 span.name{
-    color: #fff;
+    color: #5EC6C5;
 }
 .btn {
   font-size: 18px;
@@ -48,6 +48,13 @@ span.name{
 .container{
   margin: 4% auto;
 }
+#icon {
+  max-width: 200px;
+  margin: 15% auto;
+}
+p.rim {
+  text-align: justify;
+}
 @media (max-width: 600px) {
   .carousel-caption {
     display: none;
@@ -55,7 +62,7 @@ span.name{
   #icon {
     max-width: 150px;
   }
-  h2 {
+h2 {
     font-size: 1.7em;
   }
 }
@@ -71,7 +78,7 @@ span.name{
 h1.topic {
   font-size: 20px;
   text-align: center;
-  color: #fff;
+  color: #5EC6C5;
 }
 p.occupy {
   text-align: center;
@@ -82,5 +89,5 @@ h2 {
   font-size: 20px;
 }
 .play {
-  color: #ffffff
+  color: #5EC6C5;
 }
