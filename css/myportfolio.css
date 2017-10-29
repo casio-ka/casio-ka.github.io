@@ -55,11 +55,19 @@ span.name{
 p.rim {
   text-align: justify;
 }
+#proj {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 10% auto;
+}
 @media (max-width: 600px) {
   .carousel-caption {
     display: none;
   }
   #icon {
+    max-width: 150px;
+  }
+  #proj {
     max-width: 150px;
   }
 h2 {
@@ -90,4 +98,10 @@ h2 {
 }
 .play {
   color: #5EC6C5;
+}
+.blue {
+  padding-top: 80px;
+}
+.red {
+  padding-top: 20px;
 }
